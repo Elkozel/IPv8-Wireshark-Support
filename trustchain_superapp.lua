@@ -409,14 +409,14 @@ local function parseOpenPortPayload(buffer, pinfo, tree)
 end
 
 IPv8.Messages[252] = {
-    id = 251,
+    id = 252,
     app = "",
     name = "Port Open Request",
     parse = parseOpenPortPayload,
     auth = false
 }
 IPv8.Messages[253] = {
-    id = 251,
+    id = 253,
     app = "",
     name = "Port Open Response",
     parse = parseOpenPortPayload,
